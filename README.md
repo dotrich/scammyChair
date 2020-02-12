@@ -1,8 +1,9 @@
 # scammyChair
-A 7 Days to Die modlet that adds froggy chair to traders for 1440 base price.
+A 7 Days to Die modlet that adds scammy chair to traders for 1440 base price.
 
 About:
 - Adds Scammy Chair to the game.
+  - The same as Froggy Chair but with the pedScam emote face.
 - Can be bought from traders for 1440 base price.
 - May not always be available to buy as stock changes.
 - Implementation based off of officeChair01.
