@@ -1,0 +1,26 @@
+<configs>
+	<append xpath="/blocks">
+		<block name="Scammy Chair">
+			<property name="Material" value="Mleather"/>
+			<property name="Stacknumber" value="10"/>
+			<property name="Weight" value="40"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Model" value="#@modfolder:Resources/ScammyChair.unity3d?ScammyChairPrefab"/>
+			<property name="CustomIcon" value="ScammyChair" />
+			<property name="IsTerrainDecoration" value="true"/>
+			<property name="FuelValue" value="90"/>
+			<property name="CanPickup" value="true"/>
+			<property class="RepairItems">
+				<property name="resourceLeather" value="8"/>
+				<property name="resourceMechanicalParts" value="4"/>
+				<property name="resourceForgedIron" value="3"/>
+			</property>
+			<drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
+			<drop event="Harvest" name="resourceMechanicalParts" count="1,2" tag="salvageHarvest"/>
+			<drop event="Destroy" name="resourceLeather" count="1,2"/>
+			<drop event="Destroy" name="resourceScrapIron" count="5,15"/>
+			<property name="EconomicValue" value="720" />
+			<property name="DescriptionKey" value="scammyChairDesc"/>
+		</block>
+	</append>
+</configs>

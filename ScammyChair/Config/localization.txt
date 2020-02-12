@@ -1,0 +1,2 @@
+Key,Source,Context,Changes,English,French,German,Klingon,Spanish,Polish
+scammyChairDesc,blocks,Block,EnChanged,A small price to pay for scammy chair.,,,,,
